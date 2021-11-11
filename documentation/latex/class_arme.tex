@@ -1,0 +1,168 @@
+\hypertarget{class_arme}{}\doxysection{Arme Class Reference}
+\label{class_arme}\index{Arme@{Arme}}
+
+
+Classe abstraite représentant une arme.  
+
+
+
+
+{\ttfamily \#include \char`\"{}Arme\char`\"{}}
+
+
+
+Collaboration diagram for Arme\+:\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=134pt]{class_arme__coll__graph}
+\end{center}
+\end{figure}
+\doxysubsection*{Public Member Functions}
+\begin{DoxyCompactItemize}
+\item 
+\mbox{\hyperlink{class_arme_a05d48dc2d1b4123f3e6b210d5c3b2697}{Arme}} (int \mbox{\hyperlink{class_arme_a1d564dbcd5284e0fe2aa12059f391d7f}{cout}}, int \mbox{\hyperlink{class_arme_a5aee68aa1cc634322b9ddbe4f8e7ec37}{degats}}\mbox{[}2\mbox{]}, \mbox{\hyperlink{struct_portee}{Portee}} \mbox{\hyperlink{class_arme_a81817c5424938737204c134137403ff0}{portee}})
+\begin{DoxyCompactList}\small\item\em Contructeur de la classe \mbox{\hyperlink{class_arme}{Arme}}. \end{DoxyCompactList}\item 
+int \mbox{\hyperlink{class_arme_a363a4130e6bb946572849a514d7866ff}{get\+Cout}} ()
+\begin{DoxyCompactList}\small\item\em retourne le cout d\textquotesingle{}utilisation de l\textquotesingle{}arme \end{DoxyCompactList}\item 
+int \mbox{\hyperlink{class_arme_a11cb06d77bb5ea114faa1b4e167681e9}{get\+Degats}} ()
+\begin{DoxyCompactList}\small\item\em retourne le dégat de l\textquotesingle{}arme \end{DoxyCompactList}\item 
+\mbox{\hyperlink{struct_portee}{Portee}} \mbox{\hyperlink{class_arme_a020e312d3c64902b36a492fd7067d64f}{get\+Portee}} ()
+\begin{DoxyCompactList}\small\item\em retourne la portée de l\textquotesingle{}arme \end{DoxyCompactList}\item 
+virtual int \mbox{\hyperlink{class_arme_af2dc1f65c86f61e2c3604bd5ae56d494}{tir}} ()
+\begin{DoxyCompactList}\small\item\em utilise l\textquotesingle{}arme sur une cible donnée \end{DoxyCompactList}\end{DoxyCompactItemize}
+\doxysubsection*{Protected Attributes}
+\begin{DoxyCompactItemize}
+\item 
+int \mbox{\hyperlink{class_arme_a1d564dbcd5284e0fe2aa12059f391d7f}{cout}}
+\begin{DoxyCompactList}\small\item\em Cout d\textquotesingle{}utilisation de l\textquotesingle{}arme cout d\textquotesingle{}utilisation de l\textquotesingle{}arme en nombre de Point d\textquotesingle{}Action. \end{DoxyCompactList}\item 
+int \mbox{\hyperlink{class_arme_a5aee68aa1cc634322b9ddbe4f8e7ec37}{degats}} \mbox{[}2\mbox{]}
+\begin{DoxyCompactList}\small\item\em degat de l\textquotesingle{}arme Tableau a 2 case réprentent les dégats d\textquotesingle{}un tire de l\textquotesingle{}arme valeur aléatoire entre les 2 cases \end{DoxyCompactList}\item 
+\mbox{\hyperlink{struct_portee}{Portee}} \mbox{\hyperlink{class_arme_a81817c5424938737204c134137403ff0}{portee}}
+\begin{DoxyCompactList}\small\item\em Portée de l\textquotesingle{}arme Structure conenant la proté du tir de l\textquotesingle{}arme. \end{DoxyCompactList}\end{DoxyCompactItemize}
+
+
+\doxysubsection{Detailed Description}
+Classe abstraite représentant une arme. 
+
+Elle contient les informations générique d\textquotesingle{}une arme 
+
+\doxysubsection{Constructor \& Destructor Documentation}
+\mbox{\Hypertarget{class_arme_a05d48dc2d1b4123f3e6b210d5c3b2697}\label{class_arme_a05d48dc2d1b4123f3e6b210d5c3b2697}} 
+\index{Arme@{Arme}!Arme@{Arme}}
+\index{Arme@{Arme}!Arme@{Arme}}
+\doxysubsubsection{\texorpdfstring{Arme()}{Arme()}}
+{\footnotesize\ttfamily Arme\+::\+Arme (\begin{DoxyParamCaption}\item[{int}]{cout,  }\item[{int}]{degats\mbox{[}2\mbox{]},  }\item[{\mbox{\hyperlink{struct_portee}{Portee}}}]{portee }\end{DoxyParamCaption})}
+
+
+
+Contructeur de la classe \mbox{\hyperlink{class_arme}{Arme}}. 
+
+
+\begin{DoxyParams}[1]{Parameters}
+\mbox{\texttt{ in}}  & {\em cout} & Cout d\textquotesingle{}utilisation de l\textquotesingle{}arme \\
+\hline
+\mbox{\texttt{ in}}  & {\em degats} & tableau contenant les dégats min et max de l\textquotesingle{}arme \\
+\hline
+\mbox{\texttt{ in}}  & {\em portee} & structure contenant la portée de l\textquotesingle{}arme \\
+\hline
+\end{DoxyParams}
+
+
+\doxysubsection{Member Function Documentation}
+\mbox{\Hypertarget{class_arme_a363a4130e6bb946572849a514d7866ff}\label{class_arme_a363a4130e6bb946572849a514d7866ff}} 
+\index{Arme@{Arme}!getCout@{getCout}}
+\index{getCout@{getCout}!Arme@{Arme}}
+\doxysubsubsection{\texorpdfstring{getCout()}{getCout()}}
+{\footnotesize\ttfamily int Arme\+::get\+Cout (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})}
+
+
+
+retourne le cout d\textquotesingle{}utilisation de l\textquotesingle{}arme 
+
+\begin{DoxyReturn}{Returns}
+int retourne le cout d\textquotesingle{}utilisation de l\textquotesingle{}arme en nombre de Point d\textquotesingle{}Action 
+\end{DoxyReturn}
+\mbox{\Hypertarget{class_arme_a11cb06d77bb5ea114faa1b4e167681e9}\label{class_arme_a11cb06d77bb5ea114faa1b4e167681e9}} 
+\index{Arme@{Arme}!getDegats@{getDegats}}
+\index{getDegats@{getDegats}!Arme@{Arme}}
+\doxysubsubsection{\texorpdfstring{getDegats()}{getDegats()}}
+{\footnotesize\ttfamily int Arme\+::get\+Degats (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})}
+
+
+
+retourne le dégat de l\textquotesingle{}arme 
+
+\begin{DoxyReturn}{Returns}
+int retourne le dégat de l\textquotesingle{}arme (valeur aléatoire entre le min et le max) 
+\end{DoxyReturn}
+\mbox{\Hypertarget{class_arme_a020e312d3c64902b36a492fd7067d64f}\label{class_arme_a020e312d3c64902b36a492fd7067d64f}} 
+\index{Arme@{Arme}!getPortee@{getPortee}}
+\index{getPortee@{getPortee}!Arme@{Arme}}
+\doxysubsubsection{\texorpdfstring{getPortee()}{getPortee()}}
+{\footnotesize\ttfamily \mbox{\hyperlink{struct_portee}{Portee}} Arme\+::get\+Portee (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})}
+
+
+
+retourne la portée de l\textquotesingle{}arme 
+
+\begin{DoxyReturn}{Returns}
+\mbox{\hyperlink{struct_portee}{Portee}} retourne la portée de l\textquotesingle{}arme 
+\end{DoxyReturn}
+\mbox{\Hypertarget{class_arme_af2dc1f65c86f61e2c3604bd5ae56d494}\label{class_arme_af2dc1f65c86f61e2c3604bd5ae56d494}} 
+\index{Arme@{Arme}!tir@{tir}}
+\index{tir@{tir}!Arme@{Arme}}
+\doxysubsubsection{\texorpdfstring{tir()}{tir()}}
+{\footnotesize\ttfamily virtual int Arme\+::tir (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [virtual]}}
+
+
+
+utilise l\textquotesingle{}arme sur une cible donnée 
+
+
+\begin{DoxyParams}[1]{Parameters}
+\mbox{\texttt{ in}}  & {\em cible} & cible sur laquelle l\textquotesingle{}arme est utilisée\\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+int retourne le cout d\textquotesingle{}utilisation de l\textquotesingle{}arme 
+\end{DoxyReturn}
+
+
+\doxysubsection{Member Data Documentation}
+\mbox{\Hypertarget{class_arme_a1d564dbcd5284e0fe2aa12059f391d7f}\label{class_arme_a1d564dbcd5284e0fe2aa12059f391d7f}} 
+\index{Arme@{Arme}!cout@{cout}}
+\index{cout@{cout}!Arme@{Arme}}
+\doxysubsubsection{\texorpdfstring{cout}{cout}}
+{\footnotesize\ttfamily int Arme\+::cout\hspace{0.3cm}{\ttfamily [protected]}}
+
+
+
+Cout d\textquotesingle{}utilisation de l\textquotesingle{}arme cout d\textquotesingle{}utilisation de l\textquotesingle{}arme en nombre de Point d\textquotesingle{}Action. 
+
+\mbox{\Hypertarget{class_arme_a5aee68aa1cc634322b9ddbe4f8e7ec37}\label{class_arme_a5aee68aa1cc634322b9ddbe4f8e7ec37}} 
+\index{Arme@{Arme}!degats@{degats}}
+\index{degats@{degats}!Arme@{Arme}}
+\doxysubsubsection{\texorpdfstring{degats}{degats}}
+{\footnotesize\ttfamily int Arme\+::degats\mbox{[}2\mbox{]}\hspace{0.3cm}{\ttfamily [protected]}}
+
+
+
+degat de l\textquotesingle{}arme Tableau a 2 case réprentent les dégats d\textquotesingle{}un tire de l\textquotesingle{}arme valeur aléatoire entre les 2 cases 
+
+\mbox{\Hypertarget{class_arme_a81817c5424938737204c134137403ff0}\label{class_arme_a81817c5424938737204c134137403ff0}} 
+\index{Arme@{Arme}!portee@{portee}}
+\index{portee@{portee}!Arme@{Arme}}
+\doxysubsubsection{\texorpdfstring{portee}{portee}}
+{\footnotesize\ttfamily \mbox{\hyperlink{struct_portee}{Portee}} Arme\+::portee\hspace{0.3cm}{\ttfamily [protected]}}
+
+
+
+Portée de l\textquotesingle{}arme Structure conenant la proté du tir de l\textquotesingle{}arme. 
+
+
+
+The documentation for this class was generated from the following files\+:\begin{DoxyCompactItemize}
+\item 
+/home/clement/\+Documents/\+Platform\+IO/\+Projects/\+Leek war/src/\mbox{\hyperlink{_arme_8h}{Arme.\+h}}\item 
+/home/clement/\+Documents/\+Platform\+IO/\+Projects/\+Leek war/src/\mbox{\hyperlink{_arme_8cpp}{Arme.\+cpp}}\end{DoxyCompactItemize}

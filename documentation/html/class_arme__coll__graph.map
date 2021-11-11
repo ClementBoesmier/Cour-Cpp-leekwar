@@ -1,0 +1,4 @@
+<map id="Arme" name="Arme">
+<area shape="rect" id="node1" title="Classe abstraite représentant une arme." alt="" coords="9,95,63,121"/>
+<area shape="rect" id="node2" href="$struct_portee.html" title=" " alt="" coords="5,5,67,32"/>
+</map>
